@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">collegerank</string>
+
+    <string-array name="clg">
+        <item>--null--</item>
+        <item>mnnit</item>
+        <item>nnit</item>
+        <item>mnit</item>
+        <item>knit</item>
+    </string-array>
+</resources>
