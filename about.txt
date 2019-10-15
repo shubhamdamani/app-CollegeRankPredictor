@@ -1,0 +1,1 @@
+An android app developed to predict college rank using a simple algorithm based on SQLite and displaying past details using GraphView.
