@@ -70,6 +70,7 @@ public class MainActivity extends SimpleActivity {
 
 
         GraphView graph=(GraphView)findViewById(R.id.graph);
+	//set graphview attributes
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setMinX(2005);
         graph.getViewport().setMinY(0);
@@ -290,7 +291,7 @@ public class MainActivity extends SimpleActivity {
                                 int rk=crz.getInt(crz.getColumnIndex("rank"));
                                 pred+=yr*rk;
                                 tyr+=yr;
-                                //       Log.d("year"k"+rk)
+                                       Log.d("year"k"+rk)
 
                                 series.appendData(new DataPoint(yr,rk),false,100);
 
@@ -313,6 +314,7 @@ public class MainActivity extends SimpleActivity {
                                 graph.addSeries(series);
                             }
                             else{
+				//set Title of graph
                                 graph.setTitle("ti");
                                 //graph.setTitleTextSize();
                                 graph.setTitleColor(82475);
